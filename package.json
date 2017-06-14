@@ -1,0 +1,69 @@
+{
+  "name": "node-archetype",
+  "version": "0.1.0",
+  "description": "node-archetype",
+  "private": true,
+  "engines": {
+    "node": "6.9.4"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/gulp/bin/gulp.js test",
+    "eslint": "./node_modules/gulp/bin/gulp.js eslint",
+    "dev": "./node_modules/gulp/bin/gulp.js default",
+    "help": "./node_modules/gulp/bin/gulp.js help",
+    "gulp": "./node_modules/gulp/bin/gulp.js",
+    "package": "./node_modules/gulp/bin/gulp.js package",
+    "clean": "./node_modules/gulp/bin/gulp.js clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Guillermo Fernández Kessler",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "glob": "^7.1.1",
+    "health-check-mongodb": "0.0.3",
+    "helmet": "^3.4.0",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.7",
+    "mkdirp": "^0.5.1",
+    "moment-timezone": "^0.5.11",
+    "morgan": "^1.7.0",
+    "request": "^2.79.0",
+    "swagger-jsdoc": "^1.9.0",
+    "swagger-ui-express": "^1.0.3",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "del": "^2.2.2",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-develop-server": "^0.5.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-gzip": "^1.4.0",
+    "gulp-help": "^1.6.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-tar": "^1.9.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2",
+    "rewire": "^2.5.2",
+    "supertest": "^2.0.1"
+  }
+}
